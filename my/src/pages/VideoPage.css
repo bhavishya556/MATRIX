@@ -1,0 +1,135 @@
+/* VideoPage.css */
+
+.video-page {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.video-list {
+
+
+  padding: 20px;
+  background-color: bl;
+  width: 20%;
+
+}
+.vid-item{
+background-color: white;
+
+}
+.video-player {
+
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+
+
+}
+
+/* Style for the video list */
+.video-list h2 {
+  margin-bottom: 10px;
+}
+
+.video-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.video-list li {
+  margin-bottom: 10px;
+
+}
+.vid-ul{
+  margin-top: 30px;
+}
+.vid-play{
+  border-radius: 30px;
+  overflow: hidden;
+
+
+}
+.video-list button {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 40px;
+  width: 100%;
+ 
+}
+.vid-btn{
+  color: white;
+  position: fixed;
+  font-size: 20px;
+  top: 50vh;
+  color: black;
+  font-weight: 900;
+}
+.video-list button:hover {
+  background-color:gray;
+  font-weight: 600;
+}
+
+/* Define the initial state for the video list */
+/* .video-list {
+  width: 0;
+  overflow: hidden;
+  transition: width 0.3s ease-in-out;
+}
+
+.video-list.open {
+  width: 10%; 
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+
+.video-list-toggle {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+}
+
+.video-list-toggle:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 700px) {
+  .video-page {
+    flex-direction: column-reverse;
+    display: flex;
+
+  }
+
+
+  .video-player {
+
+    padding: 20px;
+    height: 45vh;
+    width: 100vw;
+
+  
+  
+  }
+  .video-list {
+    margin-top: 0px;
+
+
+    padding: 20px;
+
+    width: 100vw;
+  
+  }
+
+}
+.list-open-btn{
+  color: gray;
+}

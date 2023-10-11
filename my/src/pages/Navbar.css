@@ -1,0 +1,39 @@
+.navbar{
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	height: 50px;
+	text-align: center;
+	color: white;
+	background-color:black;
+	gap: 20px;
+	height: 8vh;
+	justify-content: space-evenly;
+}
+#no{
+	height: 36px;
+	width: 80px;
+	font-size: 16px;
+	color: rgb(185, 185, 185);
+	border: 1px solid white;
+	border-radius: 4px;
+	background-color:black;
+}
+#no:focus{
+	outline: none;
+}
+.font-size{
+	width: 100px;
+}
+.css-2b097c-container{
+	width: 120px;
+	color: black;
+	background-color:black;
+}
+.css-yk16xz-control{
+	background-color:black !important;
+	border-color: white !important;
+}
+.select{
+	color: black;
+}

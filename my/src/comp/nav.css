@@ -1,0 +1,135 @@
+.nav-con {
+  height: 80px;
+  width: 98vw;
+  display: flex;
+  top: 0px;
+  z-index: 1;
+  margin: 0 auto;
+  margin-left: 1vw;
+  margin-top: 2px;
+
+
+
+  align-items: center;
+  justify-content: space-around;
+  border: 0.1px solid gray;
+  border-radius: 20px;
+
+  box-shadow: 1px 1px 9px 1px rgba(200, 200, 200, 0.3);
+  position: fixed;
+  padding-left: 5px;
+  padding-right: 5px;
+  z-index: 10;
+
+}
+.nav-item{
+  color: white;
+}
+
+.nav-itmes {
+  background-color: rgba(255, 255, 255, 0.9);
+  /* Transparent white background */
+  /* Apply a blur effect to the background */
+  background-image: url("./black-blur-background-eqtxu9js4n5ulcx5.jpg");
+
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  color: white;
+
+  padding: 25px;
+  font-size: 12px;
+  gap: 8vw;
+  
+
+
+
+
+
+
+}
+
+.nav-logo {
+  color: white;
+}
+.nav-admin{
+  display: none;
+}
+
+.item {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+
+
+
+}
+
+.nav-logo {
+  color: white;
+}
+
+.admin {
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  height: 40px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+
+
+}
+.nav-logo-con{
+  color: white;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+@media (max-width: 700px) {
+  .nav-logo {
+    display: none;
+  }
+
+  .admin {
+    display: none;
+  
+
+  }
+
+
+  .nav-itmes {
+  margin-left: 3px;
+  margin-right: 3px;
+  gap: 11px;
+  }
+  .nav-con {
+    height: 70px;
+  }
+  .nav-admin{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    height: 30px;
+    padding: 3px;
+
+    font-size: 11px;
+  }
+
+
+
+}

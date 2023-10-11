@@ -1,0 +1,35 @@
+.class-con{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.live-input{
+    display: none;
+}
+.class-txt{
+    color: white;
+    border:  3px solid white;
+    border-radius: 12px;
+    padding: 13px;
+    
+}
+.class-sub-con{
+    display: flex;
+    gap: 10vw;
+    justify-content: center;align-items: center;
+}
+.class-btn{
+    padding: 21px;
+   
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 15px;
+}
+.class-logo{
+    transform:  scale(4);
+    margin-bottom: 100px;
+}

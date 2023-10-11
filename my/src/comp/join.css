@@ -1,0 +1,79 @@
+
+.join{
+    background-color: black;
+    padding-top: 100px;
+    font-family: Verdana, sans-serif;
+  
+}
+
+.join-con{
+    background-color: black;
+    color: white;
+   
+
+
+    width: 100vw;
+    padding: 10px;
+   
+}
+.join-dot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+ 
+  
+   
+    
+   
+    
+   
+    
+
+}
+.join-line{
+    background-color: white;
+    height: 5px;
+    width: 0px;
+    /* Set the initial width */
+    height: 5px; /* Set the element's height */
+ /* Set a background color */
+    animation: widthLoop 9s infinite  ease-in-out;
+}
+@keyframes widthLoop {
+    0% {
+      width: 0px; /* Start with a minimum width */
+    }
+   
+    100% {
+      width: 100vw; /* Decrease the width back to the minimum */
+    }
+  }
+
+.join-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+ 
+    justify-content: space-between;
+
+}
+.join-main-head{
+    font-size: 50px;
+    
+}
+.join-sub-head{
+    font-size: 20px;
+
+}
+.join-icon-con{
+    display: flex;
+
+    justify-content: space-evenly;
+    
+}
+.join-icon{
+    height: 120px;
+    width: 120px;
+}

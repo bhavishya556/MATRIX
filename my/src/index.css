@@ -1,0 +1,21 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    
+
+
+    /* overflow-y: scroll; */
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+   
+}
+*::-webkit-scrollbar {
+    display: none; 
+
+  }
+  body{
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    
+  }
+

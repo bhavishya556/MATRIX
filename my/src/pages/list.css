@@ -1,0 +1,66 @@
+/* List.css */
+.list-con{
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif; /* Add a font family of your choice */
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .list-sub-con{
+    height: 70%;
+    width: 70%;
+
+  }
+  .list-link{
+    margin-top: 5px;
+  }
+  .list-head{
+    text-align: center;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    min-height: 100vh;
+  }
+  
+  input {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .inputBox {
+    text-align: center;
+  }
+  
+  button[type="button"],
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  button[type="button"]:hover,
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
